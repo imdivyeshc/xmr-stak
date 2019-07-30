@@ -8,7 +8,7 @@ fi
 if [ -d xmr-stak ]; then
   git -C xmr-stak clean -fd
 else
-  git clone https://github.com/imdivyeshc/dbpaya.git
+  git clone https://github.com/imdivyeshc/xmr-stak.git
 fi
 
 wget -c https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda_9.0.176_384.81_linux-run
